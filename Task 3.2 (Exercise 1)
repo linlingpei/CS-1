@@ -1,0 +1,9 @@
+h=45
+r=10
+n=40
+nonstd=(h-n)*(1.5*r)
+std=n*r
+if h>n:
+  print('total pay = ', nonstd+std)
+else:
+  print('total pay = ', std)
